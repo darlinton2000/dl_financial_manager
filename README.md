@@ -1,4 +1,4 @@
-<h2>Laravel - AdminLTE</h2>
+<h2>DL Financial Manager</h2>
 
 <p><b>Linguagem de programação:</b> PHP 8.2</p>
 <p><b>Frameworks:</b> Laravel 10</p>
@@ -6,13 +6,9 @@
 
 <hr/>
 
-O objetivo deste projeto é fornecer uma integração pronta entre o Laravel e o AdminLTE, incluindo o desenvolvimento de um CRUD de usuários.
+Sistema para gerenciamento financeiro doméstico.
 
 <hr/>
-
-Tela Inicial
-
-![01](https://github.com/darlinton2000/laravel_adminlte/assets/46008964/84c1d204-ef4e-4885-9e0a-0bd7413bcaf9)
 
 Dashboard
 
