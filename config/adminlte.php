@@ -305,10 +305,11 @@ return [
         [
             'text'        => 'Usuários',
             'url'         => 'painel/users',
-            'icon'        => 'fas fa-users',
-            'can'         => 'edit-users'
+            'icon'        => 'fas fa-users'
         ],
+
         ['header' => 'account_settings'],
+        
         [
             'text' => 'Perfil',
             'url'  => 'painel/profile',
