@@ -52,9 +52,14 @@
             </div>
         </div>
 
+         <!-- Start Buttons -->
         <div class="card-footer">
+            <a href="{{ route('users.index')}}">
+                <span class="btn btn-danger">Voltar</span>
+            </a> 
             <button type="submit" value="Salvar" class="btn btn-success">Salvar</button>
         </div>
+        <!-- End Buttons -->
     </form>
 
 @endsection

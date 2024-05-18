@@ -23,10 +23,12 @@
         </div>
     </div>
  
+    <!-- Start Buttons -->
     <div class="card-footer">
         <a href="{{ route('users.index')}}">
             <span class="btn btn-danger">Voltar</span>
         </a> 
     </div>
+    <!-- End Buttons -->
 
 @endsection

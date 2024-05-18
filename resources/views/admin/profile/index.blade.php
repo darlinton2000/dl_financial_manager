@@ -59,10 +59,11 @@
             </div>
         </div>
 
+        <!-- Start Buttons -->
         <div class="card-footer">
             <button type="submit" value="Salvar" class="btn btn-success">Salvar</button>
         </div>
-
+        <!-- End Buttons -->
     </form>
 
 @endsection
