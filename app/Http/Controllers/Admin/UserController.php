@@ -85,7 +85,12 @@ class UserController extends Controller
      */
     public function show(int $id)
     {
-        //
+        if ($data = User::find($id)) {
+// dd($data);
+            return view('admin.users.show', compact('data'));
+        }
+
+        return view('admin.users.index');
     }
 
     /**

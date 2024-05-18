@@ -36,6 +36,7 @@
                         <td>{{ $user->name }}</td>
                         <td>{{ $user->email }}</td>
                         <td>
+                            <a href="{{ route('users.show', ['user' => $user->id]) }}" class="btn btn-sm btn-primary">Ver</a>
                             <a href="{{ route('users.edit', ['user' => $user->id]) }}" class="btn btn-sm btn-warning">Editar</a>
 
                             @if ($loggedId !== intval($user->id))
